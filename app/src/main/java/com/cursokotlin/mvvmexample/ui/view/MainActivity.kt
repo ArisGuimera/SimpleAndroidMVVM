@@ -1,16 +1,12 @@
-package com.cursokotlin.mvvmexample.view
+package com.cursokotlin.mvvmexample.ui.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.TextView
 import androidx.activity.viewModels
+import androidx.core.view.isVisible
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.get
-import com.cursokotlin.mvvmexample.R
 import com.cursokotlin.mvvmexample.databinding.ActivityMainBinding
-import com.cursokotlin.mvvmexample.viewmodel.QuoteViewModel
+import com.cursokotlin.mvvmexample.ui.viewmodel.QuoteViewModel
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,11 +19,15 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        quoteViewModel.onCreate()
+
         quoteViewModel.quoteModel.observe(this, Observer {
             binding.tvQuote.text = it.quote
             binding.tvAuthor.text = it.author
         })
-
+        quoteViewModel.isLoading.observe(this, Observer {
+            binding.loading.isVisible = it
+        })
 
         binding.viewContainer.setOnClickListener { quoteViewModel.randomQuote() }
 
