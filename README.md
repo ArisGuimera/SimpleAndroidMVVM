@@ -7,4 +7,6 @@ Cada capítulo tendrá una rama con los conocimientos explicados y en **Master**
 
 - [Clean Architecture + Retrofit y corrutinas](https://cursokotlin.com/mvvm-en-android-con-kotlin-implementando-retrofit-corrutinas-y-clean-architecture/) - Segunda versión de MVVM, donde hemos añadido peticiones en red consumiendo un API con Retrofit 2 y corrutinas. También hemos añadido clean architecture. [**CleanRetrofit**](https://github.com/ArisGuimera/SimpleAndroidMVVM/tree/CleanRetrofit)
 
+- [Dagger Hilt - Inyección de dependencias](https://cursokotlin.com/dagger-hilt-inyeccion-de-dependencias-mvvm/) - En esta tercera iteración se ha añadido inyección de dependencias en todo el proyecto con Dagger Hilt [**DaggerHilt**](https://github.com/ArisGuimera/SimpleAndroidMVVM/tree/DaggerHilt)
+
 Recuerda que también puedes ver los capítulos por escritos [en mi canal de Youtube](https://youtube.com/c/aristidevs)
