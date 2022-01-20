@@ -9,4 +9,6 @@ Cada capítulo tendrá una rama con los conocimientos explicados y en **Master**
 
 - [Dagger Hilt - Inyección de dependencias](https://cursokotlin.com/dagger-hilt-inyeccion-de-dependencias-mvvm/) - En esta tercera iteración se ha añadido inyección de dependencias en todo el proyecto con Dagger Hilt [**DaggerHilt**](https://github.com/ArisGuimera/SimpleAndroidMVVM/tree/DaggerHilt)
 
-Recuerda que también puedes ver los capítulos por escritos [en mi canal de Youtube](https://youtube.com/c/aristidevs)
+- [Persistencia de datos con ROOM](https://github.com/ArisGuimera/SimpleAndroidMVVM/tree/Room) - En esta cuarta parte vamos a implementar persistencia de datos con el OMR de Google Room.
+
+Recuerda que también puedes ver los capítulos en vídeo [en mi canal de Youtube](https://youtube.com/c/aristidevs)
