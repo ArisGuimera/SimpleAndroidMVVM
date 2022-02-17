@@ -1,7 +1,7 @@
 # SimpleAndroidMVVM - [CursoKotlin.com](https://cursokotlin.com)
 
 <p align="center">
-[![Curso Android MVVM desde cero](https://github.com/ArisGuimera/SimpleAndroidMVVM/blob/master/thumbnailMVVM.jpeg)](https://www.youtube.com/watch?v=hhhSMXi0R3E)
+[![Android MVVM](https://cursokotlin.com/wp-content/uploads/2022/02/thumbnailMVVM.jpeg)](https://www.youtube.com/watch?v=hhhSMXi0R3E)
 </p>
 
 En este proyecto encontrarás un proyecto MVVM para Android en Kotlin que podrás seguir con los capítulos de CursoKollin.com
