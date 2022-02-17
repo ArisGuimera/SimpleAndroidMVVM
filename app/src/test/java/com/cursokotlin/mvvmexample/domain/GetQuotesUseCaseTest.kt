@@ -36,7 +36,7 @@ class GetQuotesUseCaseTest {
     }
 
     @Test
-    fun `when the api return something then get values from database`() = runBlocking {
+    fun `when the api return something then get values from api`() = runBlocking {
         //Given
         val myList = listOf(Quote("Déjame un comentario", "AristiDevs"))
         coEvery { quoteRepository.getAllQuotesFromApi() } returns myList

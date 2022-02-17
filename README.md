@@ -11,4 +11,6 @@ Cada capítulo tendrá una rama con los conocimientos explicados y en **Master**
 
 - [Persistencia de datos con ROOM](https://github.com/ArisGuimera/SimpleAndroidMVVM/tree/Room) - En esta cuarta parte vamos a implementar persistencia de datos con el OMR de Google Room.
 
+- [Testing en Android con MVVM (Unit test)](https://cursokotlin.com/testing-en-android---test-unitarios/) - Quinta entrega dónde implementaremos testing unitario desde cero. Puedes encontrar la rama específica aquí [**UnitTesting**](https://github.com/ArisGuimera/SimpleAndroidMVVM/tree/UnitTests)
+
 Recuerda que también puedes ver los capítulos en vídeo [en mi canal de Youtube](https://youtube.com/c/aristidevs)
