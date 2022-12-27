@@ -79,6 +79,6 @@ class QuoteViewModelUnitTest {
         quoteViewModel.onCreate()
 
         //Then
-        assert(quoteViewModel.quoteModel.value == quote.first())
+        assert(quoteViewModel.quoteModel.value != quote.first())
     }
 }
