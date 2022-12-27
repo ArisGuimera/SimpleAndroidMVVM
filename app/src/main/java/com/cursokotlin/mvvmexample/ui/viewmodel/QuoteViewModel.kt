@@ -36,7 +36,7 @@ class QuoteViewModel @Inject constructor(
             isLoading.postValue(true)
             val quote = getRandomQuoteUseCase()
             if (quote != null) {
-                quoteModel.value = quote
+                quoteModel.value = quote!!
             }
             isLoading.postValue(false)
         }
