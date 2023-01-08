@@ -13,6 +13,8 @@
 /.idea/gradle.xml
 /gradle/wrapper/gradle-wrapper.jar
 /gradle/wrapper/gradle-wrapper.properties
+/gradlew
+/gradlew.bat
 /.idea/jarRepositories.xml
 /.gradle/6.8/fileChanges/last-build.bin
 /.idea/misc.xml
