@@ -32,7 +32,7 @@ class GetQuotesUseCaseTest {
         getQuotesUseCase()
 
         //Then
-        coVerify(exactly = 0) { quoteRepository.getAllQuotesFromDatabase() }
+        coVerify(exactly = 1) { quoteRepository.getAllQuotesFromDatabase() }
     }
 
     @Test
