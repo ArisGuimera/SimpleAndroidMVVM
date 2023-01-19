@@ -18,7 +18,7 @@ Cada capítulo tendrá una rama con los conocimientos explicados y en **Master**
 - [Testing en Android con MVVM (Unit test)](https://cursokotlin.com/testing-en-android---test-unitarios/) - Quinta entrega dónde implementaremos testing unitario desde cero. Puedes encontrar la rama específica aquí [**UnitTesting**](https://github.com/ArisGuimera/SimpleAndroidMVVM/tree/UnitTests)
 
 - [Integración continua básica](https://youtu.be/Zfaev5IOBmI) - Empezamos a preparar la integración continua del proyecto con Github Actions. La rama correspondiente es [**CI/CD**](https://github.com/ArisGuimera/SimpleAndroidMVVM/tree/ci/cd)
-- 
+
 - [Testing en CI](https://youtu.be/JYeYvEUq8Yw) - Corre los tests directamente en tu workflow y crea reglas personalizadas para las Pull Request, tienes todo el código en la rama [**CiTesting**](https://github.com/ArisGuimera/SimpleAndroidMVVM/tree/ciTesting)
 
 Recuerda que también puedes ver los capítulos en vídeo [en mi canal de Youtube](https://youtube.com/c/aristidevs)
