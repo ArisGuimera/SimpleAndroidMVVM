@@ -2,10 +2,9 @@ name: Android CI
 
 on:
   push:
-    branches: [ "ci/cd", "master" ]
+    branches: ["ci/cd", "master"]
   pull_request:
-    branches: [ "ci/cd", "master" ]
-
+    branches: ["ci/cd", "master"]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,13 +12,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: set up JDK 11
+      - name: set up JDK 17
         uses: actions/setup-java@v3
         with:
-          java-version: '11'
+          java-version: '17'
           distribution: 'temurin'
           cache: gradle
-
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
       - name: Build app
